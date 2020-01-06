@@ -9,11 +9,11 @@ const contact = () => {
         <Title title="contact"></Title>
         <article className={styles.text}>
           <p>
-            If you are looking to get ahold of me, you can send me an email at{" "}
-            <a href="#">johndoe@email.com</a>.
+            If you are looking to get a hold of me, you can send me an email at{" "}
+            <a href="#">email@email.com</a>.
           </p>
           <p>
-            You can also reach me on Twitter at <a href="#">@john_doe</a>.
+            You can also reach me on Twitter at <a href="#">@yvonnkr</a>.
           </p>
         </article>
       </section>

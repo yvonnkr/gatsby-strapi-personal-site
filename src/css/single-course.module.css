@@ -3,9 +3,11 @@
   transition: var(--mainTransition);
   background: var(--mainWhite);
 }
+
 .course:hover {
   box-shadow: var(--darkShadow);
 }
+
 .course h3 {
   font-size: 1rem;
 }
@@ -15,9 +17,12 @@
   background: var(--primaryColor);
   transition: var(--mainTransition);
 }
+
 .img {
   transition: var(--mainTransition);
+  height: 180px;
 }
+
 .img-container:hover .img {
   opacity: 0.3;
 }
@@ -37,10 +42,12 @@
   transition: var(--mainTransition);
   cursor: pointer;
 }
+
 .link:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
 }
+
 .img-container:hover .link {
   opacity: 1;
 }
@@ -50,21 +57,25 @@
   text-align: left;
   background: var(--mainWhite);
 }
+
 .footer h3 {
   text-transform: capitalize;
   font-size: 1.3rem;
   margin-bottom: 0;
 }
+
 .footer p {
   color: var(--primaryColor);
   margin-bottom: 0;
   letter-spacing: var(--mainSpacing);
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .text {
   padding-top: 9px;
 }
